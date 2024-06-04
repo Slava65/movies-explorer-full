@@ -1,0 +1,44 @@
+services:
+  web:
+    build: ./movies-explorer-frontend
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+    networks:
+      - network-backend
+  api:
+    build: ./movies-explorer-api
+    depends_on:
+      - mongo
+    ports:
+      - "3001:3001"
+    networks: 
+     - network-backend
+  
+  mongo:
+    image: mongo
+    restart: always
+    volumes: 
+      - mongodb_data:/data/db
+      - ./scripts:/docker-entrypoint-initdb.d
+    environment: 
+      MONGODB_INITDB_ROOT_USERNAME: username
+      MONGODB_INITDB_ROOT_PASSWORD: password
+    # uncomment following lines to access db locally
+    # ports:
+    # - 27017:27017
+    networks: 
+      network-backend:
+        ipv4_address: 10.5.0.2
+
+networks:
+  network-backend:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+          gateway: 10.5.0.1
+          
+volumes: 
+  mongodb_data:

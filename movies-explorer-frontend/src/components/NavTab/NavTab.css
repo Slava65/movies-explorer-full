@@ -1,0 +1,39 @@
+.navtab__menu {
+  margin: 0 auto 30px;
+}
+
+.navtab__button {
+  width: 96px;
+  height: 36px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0;
+}
+
+.navtab__button:last-of-type {
+  margin-right: 0;
+}
+
+.navtab__button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .navtab__menu {
+    margin: 0 auto 17px;
+  }
+  .navtab__button {
+    width: 82px;
+    height: 26px;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

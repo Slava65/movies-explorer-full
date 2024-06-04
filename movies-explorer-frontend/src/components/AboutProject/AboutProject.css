@@ -1,0 +1,210 @@
+.aboutproject {
+  margin: 110px auto;
+  width: calc(100% - 140px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutproject__title {
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  align-self: flex-start;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 23px;
+}
+
+.aboutproject__line {
+  border: none;
+  background-color: #000000;
+  height: 1px;
+  width: 100%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.aboutproject__description {
+  display: flex;
+  margin: 70px auto 110px;
+  width: 100%;
+}
+
+.aboutproject__parts {
+  width: 550px;
+  margin-right: 40px;
+}
+
+.aboutproject__parts:last-of-type {
+  margin-right: 0;
+}
+
+.aboutproject__description-title {
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 26px;
+}
+
+.aboutproject__description-text {
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.aboutproject__diagramm {
+  width: 100%;
+  display: flex;
+}
+
+.aboutproject__diagramm-backend {
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  width: 20%;
+}
+
+.aboutproject__diagramm-backend-duration {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #3456F3;
+  width: 100%;
+  height: 36px;
+  line-height: 34px;
+  margin-bottom: 14px;
+  color: #ffffff;
+}
+
+.aboutproject__diagramm-backend-lable {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #a0a0a0;
+}
+
+.aboutproject__diagramm-frontend {
+  font-family: "Inter", ‘Arial’, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  width: 80%;
+}
+
+.aboutproject__diagramm-frontend-duration {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 36px;
+  line-height: 34px;
+  margin-bottom: 14px;
+}
+
+.aboutproject__diagramm-frontend-lable {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #a0a0a0;
+}
+
+@media screen and (max-width: 820px) {
+  .aboutproject {
+    margin: 90px auto;
+    width: calc(100% - 100px);
+  }
+
+  .aboutproject__description-title {
+    margin-bottom: 22px;
+  }
+
+  .aboutproject__description {
+    margin-bottom: 93px;
+  }
+
+  .aboutproject__description-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aboutproject {
+    width: calc(100% - 36px);
+    margin-top: 70px;
+    margin-bottom: 93px;
+  }
+
+  .aboutproject__title {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 28px;
+  }
+
+  .aboutproject__description {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .aboutproject__parts {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 56px;
+  }
+
+  .aboutproject__parts:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .aboutproject__description-title {
+    width: 100%;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  .aboutproject__description-text {
+    width: 100%;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .aboutproject__diagramm-backend-duration {
+    font-size: 11px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .aboutproject__diagramm-frontend-duration {
+    font-size: 11px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .aboutproject__diagramm-backend-lable {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .aboutproject__diagramm-frontend-lable {
+    font-size: 11px;
+    line-height: 13px;
+  }
+}
