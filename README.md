@@ -8,9 +8,15 @@
 
  Для запуска проекта:
 
-1. клонируйте его командой git clone https://github.com/Slava65/movies-explorer-full.git/,
-2. введите команду docker-compose up,
-3. наберите url http://localhost:3000/ в браузере.
+1. клонируйте его командой:
+ ```console
+git clone https://github.com/Slava65/movies-explorer-full.git/
+```
+2. введите команду:
+ ```console
+ docker-compose up
+ ```
+3. откройте ссылку http://localhost:3000/ в браузере.
 
 ## Описание проекта
 
