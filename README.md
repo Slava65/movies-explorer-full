@@ -60,14 +60,14 @@ API проекта Movies Explorer реализует функционал ре�
 ## Используемые технологии 
 
 <div display="flex" justify-content="space-between" width="100%">
-<img src="/public/readme_pic_techs/javascript.svg" width="100" height="100" alt="JavaScript">
-<img src="/public/readme_pic_techs/react.svg" width="100" height="100" alt="React">
-<img src="/public/readme_pic_techs/html5.svg" width="100" height="100" alt="HTML">
-<img src="/public/readme_pic_techs/css3.svg" width="100" height="100" alt="CSS">
-<img src="/public/readme_pic_techs/nodedotjs.svg" width="100" height="100" alt="NodeJS">
-<img src="/public/readme_pic_techs/bem.svg" width="100" height="100" alt="BEM">
-<img src="/public/readme_pic_techs/mongodb.svg" width="100" height="100" alt="MongoDB">
-<img src="/public/readme_pic_techs/docker.svg" width="100" height="100" alt="Docker">
+<img src="/public/readme_pic_techs/javascript.svg" width="98" height="98" alt="JavaScript">
+<img src="/public/readme_pic_techs/react.svg" width="98" height="98" alt="React">
+<img src="/public/readme_pic_techs/html5.svg" width="98" height="98" alt="HTML">
+<img src="/public/readme_pic_techs/css3.svg" width="98" height="98" alt="CSS">
+<img src="/public/readme_pic_techs/nodedotjs.svg" width="98" height="98" alt="NodeJS">
+<img src="/public/readme_pic_techs/bem.svg" width="98" height="98" alt="BEM">
+<img src="/public/readme_pic_techs/mongodb.svg" width="98" height="98" alt="MongoDB">
+<img src="/public/readme_pic_techs/docker.svg" width="98" height="98" alt="Docker">
 </div>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=8A24F7&background=42FF4B24&vCenter=true&random=false&width=800&lines=JavaScript+React+HTML+CSS+NodeJS+BEM+MongoDB+Docker)](https://git.io/typing-svg)
