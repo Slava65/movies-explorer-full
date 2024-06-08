@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema({
     maxlength: 30,
     validate: {
       validator(v) {
-        const regex = /^[а-яa-z]{2,30}$/i;
+        const regex = /^[а-яa-z- ]{2,30}$/i;
         return regex.test(v);
       },
       message: 'Имя введено неверно',
