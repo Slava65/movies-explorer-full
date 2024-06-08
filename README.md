@@ -60,16 +60,17 @@ API проекта Movies Explorer реализует функционал ре�
 ## Используемые технологии 
 
 <div display="flex" justify-content="space-between" width="100%">
-<img src="/public/readme_pic_techs/javascript.svg" width="110" height="110" alt="JavaScript">
-<img src="/public/readme_pic_techs/react.svg" width="110" height="110" alt="React">
-<img src="/public/readme_pic_techs/html5.svg" width="110" height="110" alt="HTML">
-<img src="/public/readme_pic_techs/css3.svg" width="110" height="110" alt="CSS">
-<img src="/public/readme_pic_techs/nodedotjs.svg" width="110" height="110" alt="NodeJS">
-<img src="/public/readme_pic_techs/bem.svg" width="110" height="110" alt="BEM">
-<img src="/public/readme_pic_techs/mongodb.svg" width="110" height="110" alt="MongoDB">
+<img src="/public/readme_pic_techs/javascript.svg" width="105" height="105" alt="JavaScript">
+<img src="/public/readme_pic_techs/react.svg" width="105" height="105" alt="React">
+<img src="/public/readme_pic_techs/html5.svg" width="105" height="105" alt="HTML">
+<img src="/public/readme_pic_techs/css3.svg" width="105" height="105" alt="CSS">
+<img src="/public/readme_pic_techs/nodedotjs.svg" width="105" height="105" alt="NodeJS">
+<img src="/public/readme_pic_techs/bem.svg" width="105" height="105" alt="BEM">
+<img src="/public/readme_pic_techs/mongodb.svg" width="105" height="105" alt="MongoDB">
+<img src="/public/readme_pic_techs/docker.svg" width="105" height="105" alt="Docker">
 </div>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&pause=1000&color=1843FF&background=3DFF4622&vCenter=true&random=false&width=800&lines=JavaScript+React+HTML+CSS+NodeJS+%D0%91%D0%AD%D0%9C+MongoDB+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=8A24F7&background=42FF4B24&vCenter=true&random=false&width=800&lines=JavaScript+React+HTML+CSS+NodeJS+BEM+MongoDB+Docker)](https://git.io/typing-svg)
 
 ## Моя статистика
 
